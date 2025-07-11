@@ -1,0 +1,11 @@
+# Global code ownership - all files require review from ColinJohnson2024
+* @ColinJohnson2024
+
+# Specific file type ownership
+*.c @ColinJohnson2024
+*.h @ColinJohnson2024
+
+# Documentation and project files
+README.md @ColinJohnson2024
+Makefile @ColinJohnson2024
+*.md @ColinJohnson2024
