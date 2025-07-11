@@ -14,9 +14,12 @@ typedef struct Node {
     struct Node* right;
 } Node;
 
+// Tree level operations
 Tree* create_tree();
 int insert_root(Tree* tree, int data);
 int delete_tree(Tree** tree);
+
+// Node level operations
 Node* create_node(int data);
 int insert_left(Node* parent, int data);
 int insert_right(Node* parent, int data);
