@@ -25,4 +25,10 @@ int insert_left(Node* parent, int data);
 int insert_right(Node* parent, int data);
 int delete_node(Node* node);
 
+// Display operations
+void print_inorder(Node* root);
+void print_preorder(Node* root);
+void print_bfs(Node* root);
+void print_ascii_tree(Node* root);
+
 #endif
